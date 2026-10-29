@@ -1,0 +1,665 @@
+# PROMPT MAESTRO — EL FUTURO DE LA IA EN ARGENTINA 2027
+
+## 1. ROL Y OBJETIVO
+
+Actuá como un equipo multidisciplinario integrado por:
+
+- Un desarrollador senior especializado en React, TypeScript y arquitecturas web modernas.
+- Un diseñador UX/UI especializado en interfaces futuristas, visualizaciones de datos y experiencias interactivas.
+- Un analista de mercado laboral argentino especializado en inteligencia artificial.
+- Un especialista en salarios tecnológicos, selección de talento y empleabilidad.
+- Un ingeniero de inteligencia artificial especializado en Python, Machine Learning, LLM, RAG, agentes autónomos y MLOps.
+- Un investigador que verifica fuentes, estadísticas, certificaciones y tendencias tecnológicas.
+
+Desarrollá una landing page profesional, completa, futurista, visualmente impactante y totalmente interactiva titulada exactamente:
+
+**EL FUTURO DE LA IA EN ARGENTINA 2027**
+
+El propósito es explicar cómo puede evolucionar la inteligencia artificial en Argentina durante 2027, cómo podría afectar al empleo, qué salarios se observan o estiman para distintos perfiles, qué están haciendo las empresas y qué debe estudiar una persona para convertirse en AI Engineer.
+
+No construyas una simple página informativa. Creá un centro de análisis de datos, orientación profesional y planificación de carrera.
+
+## 2. IDENTIDAD VISUAL
+
+Diseñá una interfaz premium con estética tecnológica futurista, minimalista y profesional.
+
+### Paleta cromática obligatoria
+
+- Fondo principal beige oscuro: #302B25.
+- Fondo secundario: #3B342D.
+- Superficies y tarjetas: #453C33.
+- Texto principal: #FFF9EF.
+- Texto secundario: #D5C9B9.
+- Cian eléctrico: #00E5FF.
+- Violeta futurista: #A78BFA.
+- Naranja vibrante: #FF9F43.
+- Verde neón: #4DFFB8.
+- Rojo coral: #FF5D65.
+
+El fondo debe permanecer en la gama beige oscuro, evitando convertir toda la página en una interfaz negra convencional.
+
+Utilizá los colores vibrantes para indicadores, gráficos, botones, líneas de conexión y estados interactivos.
+
+Garantizá contraste suficiente entre el texto y su fondo. No utilices texto gris claro sobre beige claro ni colores neón como sustituto de una tipografía legible.
+
+### Elementos visuales
+
+- Glassmorphism moderado.
+- Bordes finos y luminosos.
+- Gradientes vibrantes controlados.
+- Gráficos animados al entrar en pantalla.
+- Microinteracciones al pasar el cursor.
+- Tarjetas con elevación y transiciones suaves.
+- Líneas de conexión que evoquen redes neuronales.
+- Indicadores de datos en tiempo real únicamente cuando exista una fuente real.
+- Tipografía moderna, con jerarquía clara.
+- Iconografía profesional y consistente.
+- Diseño adaptable a computadoras, tablets y celulares.
+
+La experiencia debe sentirse como una combinación entre un centro de inteligencia económica, un laboratorio de IA y una plataforma profesional de análisis tecnológico.
+
+## 3. TECNOLOGÍAS
+
+Utilizá una arquitectura moderna y mantenible:
+
+- React.
+- TypeScript.
+- Vite.
+- Tailwind CSS.
+- Framer Motion para animaciones.
+- Recharts para gráficos interactivos.
+- Lucide React para iconografía.
+- React Router para navegación, si la estructura lo requiere.
+- Zod para validar datos externos cuando corresponda.
+- LocalStorage para guardar preferencias y progreso del roadmap.
+- Vitest y React Testing Library para pruebas.
+- Playwright para pruebas de navegación y funcionalidades principales.
+
+Utilizá componentes reutilizables, tipado estricto y separación entre presentación, lógica, datos y servicios.
+
+Si una dependencia tiene cambios incompatibles con la versión instalada, seleccioná versiones compatibles y documentalas.
+
+No agregues bibliotecas innecesarias.
+
+La página debe funcionar localmente sin depender de claves API. Si se integra una API externa, implementá un adaptador opcional y documentá su configuración segura.
+
+## 4. HERO PRINCIPAL
+
+Diseñá una sección inicial de alto impacto.
+
+Título central exacto:
+
+**EL FUTURO DE LA IA EN ARGENTINA 2027**
+
+Subtítulo:
+
+“Empleo, salarios, automatización y las habilidades que definirán la próxima generación de profesionales.”
+
+Texto introductorio:
+
+“Descubrí cómo la inteligencia artificial puede transformar la economía argentina, qué competencias pueden abrir nuevas oportunidades laborales y cómo prepararte para construir una carrera tecnológica.”
+
+Incluí los siguientes botones:
+
+1. EXPLORAR EL MERCADO LABORAL.
+2. ANALIZAR SALARIOS.
+3. DESCUBRIR MI ROADMAP DE IA.
+
+Cada botón debe desplazarse a su sección correspondiente.
+
+Incorporá una animación sutil de nodos conectados, partículas o una red neuronal. Debe respetar la preferencia del sistema por reducir movimiento.
+
+Mostrá una etiqueta de estado con la fecha real de la última actualización de los datos.
+
+## 5. PANEL EJECUTIVO: ARGENTINA Y LA IA
+
+Creá un dashboard con indicadores principales:
+
+- Adopción de IA en empresas argentinas.
+- Evolución de las ofertas laborales que requieren habilidades de IA.
+- Sectores económicos con oportunidades relacionadas con IA.
+- Habilidades tecnológicas más mencionadas en vacantes.
+- Demanda de perfiles especializados.
+- Automatización potencial de tareas.
+- Capacitación empresarial.
+- Brechas de conocimientos e infraestructura.
+
+Cada indicador debe contener:
+
+- Nombre.
+- Valor.
+- Unidad de medida.
+- Período de referencia.
+- Fuente verificable.
+- Fecha de publicación.
+- Explicación sencilla.
+- Limitaciones metodológicas.
+
+Agregá gráficos interactivos con tooltips, leyendas y filtros temporales.
+
+IMPORTANTE: no confundas la adopción de herramientas generativas con la implementación empresarial a gran escala, ni el potencial técnico de automatización con la eliminación efectiva de puestos de trabajo.
+
+Cuando no haya datos argentinos suficientes para un indicador, mostrale al usuario que el dato no está disponible. No reemplaces silenciosamente cifras argentinas por datos de Estados Unidos o Europa.
+
+## 6. ANÁLISIS COMPARATIVO DEL MERCADO LABORAL
+
+Creá una sección denominada:
+
+“LOS EMPLEOS QUE CAMBIARÁN CON LA IA”
+
+Separá los resultados en tres categorías.
+
+### A. Tareas altamente expuestas a automatización
+
+Investigá funciones repetitivas, predecibles y basadas en información estructurada, por ejemplo:
+
+- Carga manual de datos.
+- Transcripción y clasificación documental.
+- Atención al cliente de primer nivel mediante respuestas estandarizadas.
+- Elaboración rutinaria de informes.
+- Procesamiento administrativo repetitivo.
+- Producción de contenido genérico de bajo valor agregado.
+- Tareas básicas de extracción y transformación de datos.
+
+No afirmes que todos estos empleos desaparecerán. Explicá qué tareas pueden automatizarse, cuáles requieren supervisión humana y qué factores determinan el impacto real.
+
+### B. Profesiones que evolucionarán
+
+Analizá cómo pueden cambiar:
+
+- Soporte técnico IT.
+- Desarrollo de software.
+- Marketing digital.
+- Diseño UX/UI.
+- Administración y contabilidad.
+- Recursos humanos.
+- Ventas.
+- Análisis de datos.
+- Ciberseguridad.
+- Educación y capacitación.
+
+Explicá cómo incorporar IA a cada profesión para aumentar productividad y mejorar el perfil profesional.
+
+### C. Profesiones y especializaciones emergentes
+
+Evaluá las perspectivas de:
+
+- AI Engineer.
+- Machine Learning Engineer.
+- AI Automation Engineer.
+- Data Engineer.
+- AI Solutions Architect.
+- MLOps Engineer.
+- LLM Engineer.
+- Especialista en RAG y agentes de IA.
+- AI Security Engineer.
+- Especialista en evaluación, calidad y gobernanza de IA.
+- Consultor de automatización empresarial.
+- Especialista en integración de IA con sistemas corporativos.
+
+No presentes estos perfiles como empleos garantizados. Diferenciá las denominaciones utilizadas actualmente en las ofertas de las especializaciones emergentes.
+
+### Visualización comparativa
+
+Construí una tabla interactiva con estas columnas:
+
+Profesión | Tareas automatizables | Tareas humanas relevantes | Habilidades nuevas | Riesgo de transformación | Oportunidad de reconversión.
+
+Utilizá escalas cualitativas justificadas, no porcentajes inventados.
+
+Agregá filtros por profesión, sector y nivel de experiencia.
+
+## 7. SALARIOS DE IA EN ARGENTINA
+
+Desarrollá una sección denominada:
+
+“¿CUÁNTO PUEDE GANAR UN PROFESIONAL DE IA EN 2027?”
+
+Investigá salarios publicados en Argentina y remuneraciones de empleos remotos internacionales cuando existan datos comparables.
+
+Incluí, cuando haya evidencia suficiente:
+
+- Desarrollador Python.
+- Data Analyst.
+- Data Engineer.
+- Machine Learning Engineer.
+- AI Engineer.
+- LLM Engineer.
+- MLOps Engineer.
+- AI Solutions Architect.
+- Consultor de automatización con IA.
+
+Separá los niveles:
+
+- Junior.
+- Semi Senior.
+- Senior.
+
+Diferenciá las siguientes modalidades:
+
+- Empleo en relación de dependencia en Argentina.
+- Contratación freelance.
+- Contratación internacional remota.
+
+Para cada rango salarial indicá:
+
+- Mínimo y máximo observados o estimados.
+- Moneda.
+- Período de remuneración.
+- Fecha de referencia.
+- Nivel de experiencia.
+- Modalidad contractual.
+- Fuente.
+- Grado de confianza.
+
+Para salarios en pesos argentinos, advertí sobre inflación y diferencias entre remuneración bruta y neta.
+
+Para salarios en dólares, aclarar si son ingresos brutos, facturación freelance o remuneración laboral.
+
+No conviertas un salario de 2025 en un salario de 2027 sin explicar el método. Si proyectás valores a 2027, publicá los supuestos y distinguí la proyección del dato observado.
+
+Incluí un selector que permita alternar entre:
+1. Datos publicados.
+2. Estimaciones para 2027.
+3. Remuneraciones internacionales comparables.
+
+Implementá un gráfico de rangos salariales y una calculadora orientativa de ingresos. La calculadora debe aclarar que no constituye una oferta salarial ni una garantía de ingresos.
+
+Si no encontrás fuentes fiables y comparables, mostrá “Datos insuficientes para establecer un rango confiable”.
+
+## 8. QUÉ ESTÁN HACIENDO LAS EMPRESAS ARGENTINAS
+
+Título:
+
+“LA CARRERA EMPRESARIAL POR INCORPORAR INTELIGENCIA ARTIFICIAL”
+
+Analizá el interés empresarial en:
+
+- Automatización de procesos.
+- Atención al cliente.
+- Marketing y ventas.
+- Análisis de información.
+- Desarrollo de software.
+- Gestión documental.
+- Predicción de demanda.
+- Detección de fraude y ciberseguridad.
+- Asistentes internos.
+- Agentes de IA integrados con sistemas corporativos.
+
+Investigá empresas y sectores argentinos con iniciativas públicas documentadas, sin inventar proyectos, inversiones ni declaraciones.
+
+Incluí una comparación por sectores:
+
+- Bancos y servicios financieros.
+- Tecnología y software.
+- Telecomunicaciones.
+- Comercio electrónico.
+- Industria y manufactura.
+- Energía y minería.
+- Salud.
+- Agroindustria.
+- Servicios profesionales.
+- Pymes.
+
+Analizá las motivaciones empresariales:
+
+- Reducción de tiempos operativos.
+- Incremento de productividad.
+- Mejora de la experiencia del cliente.
+- Optimización de costos.
+- Innovación de productos.
+- Competitividad internacional.
+- Mejor utilización de datos.
+
+También analizá obstáculos:
+
+- Falta de talento especializado.
+- Datos de mala calidad.
+- Costos de infraestructura.
+- Riesgos de seguridad y privacidad.
+- Dificultad para medir el retorno de inversión.
+- Resistencia organizacional.
+- Falta de gobernanza.
+
+Creá un gráfico que compare adopción, inversión documentada, capacitación y madurez de implementación únicamente cuando existan métricas comparables.
+
+Explicá por qué probar una herramienta de IA no equivale a integrarla de forma estable en el negocio.
+
+## 9. CAPACITACIONES Y CERTIFICACIONES
+
+Título:
+
+“QUÉ ESTUDIAR PARA CONSEGUIR EMPLEO EN IA EN 2027”
+
+Construí una ruta de formación progresiva.
+
+### Fundamentos
+
+- Python.
+- Git y GitHub.
+- Linux y terminal.
+- SQL.
+- Matemática y estadística.
+- Estructuras de datos.
+- APIs REST.
+- Fundamentos de redes y seguridad.
+
+### Ciencia de datos y Machine Learning
+
+- NumPy.
+- Pandas.
+- Matplotlib.
+- Scikit-learn.
+- Regresión y clasificación.
+- Evaluación de modelos.
+- Validación cruzada.
+- Feature engineering.
+- Redes neuronales.
+- Fundamentos de PyTorch.
+
+### Ingeniería de aplicaciones con LLM
+
+- Modelos de lenguaje.
+- Tokens, embeddings y búsqueda semántica.
+- Prompt design y evaluación.
+- RAG.
+- Bases vectoriales.
+- LangChain.
+- LangGraph.
+- Agentes de IA.
+- Uso de herramientas.
+- Memoria y gestión de estados.
+- Guardrails y evaluación de resultados.
+
+### Infraestructura y producción
+
+- Docker.
+- CI/CD.
+- AWS, Azure o Google Cloud.
+- Monitoreo.
+- Versionado de modelos y datos.
+- Observabilidad.
+- Seguridad.
+- Gestión de secretos.
+- Control de costos.
+- MLOps y LLMOps.
+
+### Certificaciones
+
+Investigá las certificaciones vigentes de proveedores como:
+
+- AWS.
+- Microsoft Azure.
+- Google Cloud.
+- NVIDIA.
+- Otras entidades reconocidas cuando aporten valor verificable.
+
+Para cada certificación indicá:
+
+Nombre oficial | Proveedor | Nivel | Requisitos | Temario | Costo actual verificado, si está disponible | Idioma | Enlace oficial | Valor profesional.
+
+No presentes cursos de finalización como equivalentes a certificaciones profesionales supervisadas.
+
+Verificá la vigencia de cada examen antes de recomendarlo. Si una certificación fue retirada o cambió de nombre, explicalo.
+
+Priorizá las competencias demostrables en proyectos, sin asumir que acumular certificados garantiza empleo.
+
+## 10. ROADMAP INTERACTIVO: CONVERTIRME EN AI ENGINEER EN 2027
+
+Diseñá un plan de doce meses, adaptable al nivel inicial del usuario.
+
+La ruta debe poder comenzar en enero de 2027, pero también debe permitir empezar en otra fecha y recalcular las etapas.
+
+### Mes 1 — Python y fundamentos
+
+Aprender variables, tipos de datos, funciones, estructuras de control, colecciones, excepciones y programación orientada a objetos.
+
+Proyecto: herramienta de procesamiento de archivos y registros.
+
+### Mes 2 — Git, Linux, SQL y APIs
+
+Aprender control de versiones, terminal, consultas SQL, JSON, HTTP y consumo de APIs.
+
+Proyecto: aplicación que obtiene, transforma y almacena datos.
+
+### Mes 3 — Datos y estadística
+
+Aprender NumPy, Pandas, visualización, estadística descriptiva y limpieza de datos.
+
+Proyecto: dashboard de análisis de datos.
+
+### Mes 4 — Machine Learning
+
+Estudiar Scikit-learn, regresión, clasificación, métricas y validación.
+
+Proyecto: modelo predictivo documentado y evaluado.
+
+### Mes 5 — Deep Learning
+
+Aprender redes neuronales, tensores, PyTorch y entrenamiento básico.
+
+Proyecto: clasificador o predictor con conjunto de datos público.
+
+### Mes 6 — LLM y aplicaciones generativas
+
+Aprender APIs de modelos, prompting estructurado, manejo de errores, streaming y evaluación.
+
+Proyecto: asistente con interfaz web.
+
+### Mes 7 — RAG
+
+Aprender embeddings, recuperación semántica, fragmentación documental, búsqueda híbrida y evaluación de respuestas.
+
+Proyecto: asistente que responde sobre documentos y muestra las fuentes utilizadas.
+
+### Mes 8 — Agentes de IA
+
+Aprender uso de herramientas, grafos de ejecución, estados, memoria, límites de ejecución y aprobación humana.
+
+Proyecto: agente que procesa solicitudes y genera informes con supervisión.
+
+### Mes 9 — Backend y despliegue
+
+Aprender FastAPI, validación, autenticación, bases de datos, Docker y despliegue.
+
+Proyecto: API de IA funcional.
+
+### Mes 10 — Cloud, seguridad y MLOps
+
+Aprender servicios cloud, CI/CD, logging, métricas, gestión de secretos, control de accesos y evaluación de costos.
+
+Proyecto: aplicación de IA desplegada con monitoreo.
+
+### Mes 11 — Portfolio profesional
+
+Preparar tres proyectos sólidos, repositorios organizados, README, pruebas, diagramas de arquitectura y demostraciones.
+
+Publicar una presentación profesional en GitHub y LinkedIn.
+
+### Mes 12 — Empleabilidad
+
+Analizar vacantes reales, adaptar CV y portfolio, practicar entrevistas técnicas, resolver ejercicios de Python y preparar demostraciones de los proyectos.
+
+Postularse a puestos adecuados al nivel alcanzado.
+
+### Funcionalidades del roadmap
+
+Cada etapa debe incluir:
+
+- Objetivos de aprendizaje.
+- Temas concretos.
+- Recursos gratuitos y oficiales.
+- Ejercicios.
+- Proyecto práctico.
+- Criterios de finalización.
+- Horas semanales estimadas.
+- Casilla para marcar progreso.
+- Fecha objetivo.
+- Estado: pendiente, en curso o completado.
+
+Guardá el progreso en LocalStorage y permití reiniciar el plan con confirmación.
+
+Mostrá una barra de progreso general y el porcentaje completado de cada mes.
+
+Permití seleccionar dedicación de 5, 10, 15 o 20 horas semanales. Ajustá las fechas y estimaciones, pero no reduzcas artificialmente los contenidos necesarios para alcanzar los objetivos.
+
+Aclarar que los doce meses son una propuesta de estudio, no una garantía de dominio profesional ni de contratación.
+
+## 11. COMPARADOR DE PERFILES PROFESIONALES
+
+Creá una herramienta para comparar:
+
+- AI Engineer.
+- Machine Learning Engineer.
+- Data Engineer.
+- Data Analyst.
+- AI Automation Engineer.
+- MLOps Engineer.
+
+Mostrar:
+
+- Competencias requeridas.
+- Dificultad de entrada.
+- Conocimientos previos.
+- Tipo de proyectos.
+- Responsabilidades.
+- Certificaciones opcionales.
+- Rangos salariales verificables.
+- Posibles sectores de contratación.
+
+Incluí un selector de perfil y un gráfico comparativo.
+
+No asignes una probabilidad de conseguir empleo sin datos estadísticos válidos.
+
+## 12. FUENTES Y ACTUALIZACIÓN
+
+Consultá fuentes primarias y recientes:
+
+- INDEC.
+- Banco Central de la República Argentina, cuando corresponda.
+- Ministerio de Capital Humano y organismos públicos pertinentes.
+- CAF.
+- CEPAL.
+- OIT.
+- Foro Económico Mundial.
+- PwC.
+- Informes académicos de universidades y centros de investigación.
+- Portales de empleo con metodología identificable.
+- Documentación oficial de certificaciones y proveedores cloud.
+
+Incluí fuentes publicadas hasta la fecha real de generación de la página.
+
+No inventes enlaces, informes, estadísticas, declaraciones ni datos salariales.
+
+Cada dato debe incluir un enlace verificable y una fecha.
+
+Si una cifra procede de una muestra limitada de ofertas laborales, especificá el tamaño y la población analizada.
+
+Separá visualmente:
+
+- DATOS OBSERVADOS.
+- ESTIMACIONES.
+- ESCENARIOS 2027.
+- RECOMENDACIONES.
+
+Si no existe información suficiente, indicá explícitamente la limitación.
+
+No afirmes conocer resultados futuros de 2027 como si fueran hechos confirmados.
+
+Diseñá una sección final de bibliografía con buscador, filtros por año y organización.
+
+## 13. INTERACTIVIDAD
+
+Implementá las siguientes funcionalidades reales:
+
+- Navegación entre secciones.
+- Menú adaptable a dispositivos móviles.
+- Gráficos con tooltips.
+- Filtros por sector, profesión, nivel y año.
+- Comparación de salarios.
+- Selector de escenarios.
+- Buscador de perfiles.
+- Calculadora orientativa.
+- Checklist del roadmap.
+- Barra de progreso persistente.
+- Enlaces a fuentes.
+- Botones para copiar información.
+- Exportación del roadmap a CSV o impresión a PDF mediante el navegador.
+- Animaciones suaves.
+- Estados de carga, error y ausencia de datos.
+- Validación de formularios.
+- Accesibilidad por teclado.
+- Respeto por prefers-reduced-motion.
+
+Ningún botón debe ser decorativo: todos deben ejecutar una acción clara.
+
+No simules conexiones con bases de datos, actualizaciones en tiempo real ni cálculos salariales que no estén implementados.
+
+## 14. ESTRUCTURA DE LA PÁGINA
+
+Organizá la landing en las siguientes secciones:
+
+1. Hero principal.
+2. Dashboard ejecutivo.
+3. Panorama de IA en Argentina.
+4. Transformación del empleo.
+5. Comparador de profesiones.
+6. Salarios y modalidades contractuales.
+7. Adopción empresarial.
+8. Sectores con oportunidades.
+9. Capacitaciones y certificaciones.
+10. Roadmap AI Engineer 2027.
+11. Portfolio y proyectos sugeridos.
+12. Fuentes y metodología.
+13. Conclusión y próximos pasos.
+
+En el encabezado incluí enlaces de navegación a las secciones principales y un indicador visible de la fecha de actualización.
+
+## 15. REQUISITOS TÉCNICOS Y ENTREGA
+
+Generá un proyecto ejecutable, no solamente un diseño o una maqueta.
+
+Entregá:
+
+1. Árbol completo de directorios.
+2. package.json.
+3. Configuración de TypeScript y Vite.
+4. Todos los componentes React.
+5. Hojas de estilos.
+6. Módulos de gráficos.
+7. Dataset de ejemplo claramente identificado como demostrativo.
+8. Módulos de fuentes y metodología.
+9. Lógica de filtros y calculadoras.
+10. Persistencia del roadmap.
+11. Pruebas automatizadas.
+12. Archivo README.
+13. Instrucciones de instalación para Windows y VS Code.
+14. Comandos exactos para ejecutar el proyecto.
+15. Instrucciones para actualizar los datos.
+
+Si el proyecto es demasiado extenso para una sola respuesta, entregá los archivos en bloques numerados y mantené consistencia entre imports, rutas, tipos y dependencias.
+
+No omitas archivos esenciales ni reemplaces código funcional por comentarios como “agregar aquí el resto”.
+
+### Criterios de aceptación
+
+El proyecto se considera terminado cuando:
+
+- Instala sus dependencias sin errores.
+- Inicia con npm run dev.
+- Se visualiza correctamente en escritorio y móvil.
+- Los gráficos utilizan datos identificados y coherentes.
+- Los filtros modifican los resultados.
+- Los enlaces de fuentes funcionan.
+- Los salarios indican moneda y período.
+- El roadmap conserva el progreso al recargar la página.
+- No existen botones sin funcionalidad.
+- No hay errores críticos en consola.
+- Las afirmaciones sobre 2027 están correctamente calificadas.
+- Se ejecutan las pruebas principales.
+
+## RESULTADO ESPERADO
+
+Construí una experiencia web que parezca un producto profesional de análisis tecnológico y orientación laboral, con estética futurista, información verificable, visualizaciones claras y herramientas útiles para tomar decisiones.
+
+La prioridad es combinar diseño de alto impacto, rigor en los datos y utilidad práctica para una persona que quiere prepararse para trabajar en inteligencia artificial en Argentina durante 2027.

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EL FUTURO DE LA IA EN ARGENTINA 2027</title>
+<style>
+:root{--bg:#302B25;--bg2:#3B342D;--card:#453C33;--tx:#FFF9EF;--tx2:#D5C9B9;--cy:#00E5FF;--vi:#A78BFA;--or:#FF9F43;--gr:#4DFFB8;--rd:#FF5D65}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+a{color:var(--cy)}:focus-visible{outline:3px solid var(--cy);outline-offset:2px}
+header{position:sticky;top:0;z-index:50;background:rgba(48,43,37,.88);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,229,255,.25)}
+.nav{max-width:1150px;margin:auto;display:flex;align-items:center;gap:14px;padding:10px 20px;flex-wrap:wrap}
+.nav b{color:var(--cy);letter-spacing:.08em}.nav .links{display:flex;gap:14px;flex-wrap:wrap;margin-left:auto}
+.nav .links a{color:var(--tx2);text-decoration:none;font-size:.9rem}.nav .links a:hover{color:var(--cy)}
+.burger{display:none;background:none;border:1px solid var(--cy);color:var(--cy);border-radius:8px;padding:6px 10px;cursor:pointer;margin-left:auto}
+.badge{font-size:.75rem;border:1px solid var(--gr);color:var(--gr);border-radius:99px;padding:2px 10px}
+@media(max-width:820px){.burger{display:block}.nav .links{display:none;width:100%;flex-direction:column}.nav .links.open{display:flex}}
+section{max-width:1150px;margin:auto;padding:70px 20px}
+h2{font-size:clamp(1.5rem,3vw,2.2rem);margin:0 0 8px}h2 span{color:var(--cy)}
+.lead{color:var(--tx2);max-width:760px}
+.hero{position:relative;min-height:92vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(160deg,var(--bg),var(--bg2))}
+#net{position:absolute;inset:0;width:100%;height:100%}
+.hero .in{position:relative;max-width:1150px;margin:auto;padding:40px 20px}
+.hero h1{font-size:clamp(2.2rem,6vw,4.4rem);line-height:1.05;margin:14px 0;background:linear-gradient(90deg,var(--tx),var(--cy) 60%,var(--vi));-webkit-background-clip:text;background-clip:text;color:transparent}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+button,.btn{font:inherit;cursor:pointer;border-radius:10px;padding:10px 18px;border:1px solid var(--cy);background:rgba(0,229,255,.08);color:var(--tx);font-weight:600;text-decoration:none;transition:.2s}
+button:hover,.btn:hover{background:var(--cy);color:#1d1a16;transform:translateY(-2px)}
+.btn.p{background:var(--cy);color:#1d1a16}.btn.o{border-color:var(--or)}.btn.o:hover{background:var(--or)}.btn.v{border-color:var(--vi)}.btn.v:hover{background:var(--vi)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:24px}
+.card{background:var(--card);border:1px solid rgba(255,249,239,.12);border-radius:16px;padding:18px;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:var(--cy);box-shadow:0 10px 30px rgba(0,229,255,.12)}
+.tag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.06em;padding:2px 9px;border-radius:99px;border:1px solid;margin-bottom:8px}
+.t-obs{color:var(--gr)}.t-est{color:var(--or)}.t-esc{color:var(--vi)}.t-rec{color:var(--cy)}
+.nd{color:var(--or);font-weight:700}
+.small{font-size:.82rem;color:var(--tx2)}
+.bg2{background:var(--bg2)}
+table{width:100%;border-collapse:collapse;margin-top:16px;font-size:.88rem;min-width:760px}
+th,td{padding:10px;text-align:left;border-bottom:1px solid rgba(255,249,239,.12);vertical-align:top}
+th{color:var(--cy);background:var(--card)}
+.wrap{overflow-x:auto}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;align-items:center}
+select,input[type=text],input[type=number]{background:var(--card);color:var(--tx);border:1px solid var(--tx2);border-radius:8px;padding:8px 10px;font:inherit}
+label{font-size:.85rem;color:var(--tx2)}
+.bar{height:10px;border-radius:99px;background:rgba(255,249,239,.12);overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--cy),var(--gr));width:0;transition:width .8s}
+.seg{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.seg button[aria-pressed=true]{background:var(--vi);color:#1d1a16;border-color:var(--vi)}
+.m-head{display:flex;justify-content:space-between;gap:10px;align-items:start;flex-wrap:wrap}
+details summary{cursor:pointer;color:var(--cy)}
+.warn{border-left:4px solid var(--or);background:rgba(255,159,67,.1);padding:10px 14px;border-radius:8px;margin-top:14px;font-size:.88rem}
+footer{border-top:1px solid rgba(255,249,239,.12);padding:30px 20px;text-align:center;color:var(--tx2);font-size:.85rem}
+.chk{width:20px;height:20px;accent-color:var(--gr)}
+.st-pendiente{color:var(--tx2)}.st-curso{color:var(--or)}.st-ok{color:var(--gr)}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<b>IA·AR·2027</b><span class="badge" id="upd"></span>
+<button class="burger" aria-label="Abrir menú" aria-expanded="false" id="bg">☰ Menú</button>
+<nav class="links" id="lk" aria-label="Principal">
+<a href="#panel">Dashboard</a><a href="#empleo">Empleo</a><a href="#salarios">Salarios</a><a href="#empresas">Empresas</a><a href="#estudiar">Estudiar</a><a href="#roadmap">Roadmap</a><a href="#perfiles">Perfiles</a><a href="#fuentes">Fuentes</a>
+</nav></div></header>
+
+<div class="hero"><canvas id="net" aria-hidden="true"></canvas>
+<div class="in">
+<span class="badge" id="upd2"></span>
+<h1>EL FUTURO DE LA IA EN ARGENTINA 2027</h1>
+<p class="lead" style="font-size:1.2rem">Empleo, salarios, automatización y las habilidades que definirán la próxima generación de profesionales.</p>
+<p class="lead">Descubrí cómo la inteligencia artificial puede transformar la economía argentina, qué competencias pueden abrir nuevas oportunidades laborales y cómo prepararte para construir una carrera tecnológica.</p>
+<div class="btns">
+<a class="btn p" href="#empleo">EXPLORAR EL MERCADO LABORAL</a>
+<a class="btn o" href="#salarios">ANALIZAR SALARIOS</a>
+<a class="btn v" href="#roadmap">DESCUBRIR MI ROADMAP DE IA</a>
+</div></div></div>
+
+<section id="panel">
+<h2>PANEL <span>EJECUTIVO</span>: ARGENTINA Y LA IA</h2>
+<p class="lead">Indicadores que se mostrarán con fuente, período y limitaciones. Esta versión <b>no incluye cifras cargadas</b>: no se inventan datos ni se reemplazan cifras argentinas por datos de otros países.</p>
+<div class="warn"><b>Aviso:</b> probar herramientas generativas no equivale a implementarlas a escala, y el potencial técnico de automatización no equivale a eliminación efectiva de puestos.</div>
+<div class="grid" id="kpis"></div>
+<p class="small">Para cargar un dato real, editá el arreglo <code>KPIS</code> en el script de este archivo.</p>
+</section>
+
+<section id="empleo" class="bg2" style="max-width:none"><div style="max-width:1110px;margin:auto">
+<h2>LOS EMPLEOS QUE <span>CAMBIARÁN</span> CON LA IA</h2>
+<p class="lead">Se analizan tareas, no puestos completos. El impacto real depende de supervisión humana, calidad de datos, regulación y costos de adopción.</p>
+<div class="grid">
+<div class="card"><span class="tag t-est" style="border-color:var(--or)">TAREAS MUY EXPUESTAS</span><p>Carga manual de datos, transcripción y clasificación documental, respuestas estandarizadas de primer nivel, informes rutinarios, procesamiento administrativo repetitivo, contenido genérico, extracción y transformación básica de datos.</p><p class="small">Esto no significa que los empleos desaparezcan: muchas tareas requieren revisión humana.</p></div>
+<div class="card"><span class="tag t-esc" style="border-color:var(--vi)">PROFESIONES QUE EVOLUCIONAN</span><p>Soporte IT, desarrollo de software, marketing digital, UX/UI, contabilidad, RR. HH., ventas, análisis de datos, ciberseguridad, educación.</p></div>
+<div class="card"><span class="tag t-obs" style="border-color:var(--gr)">ESPECIALIZACIONES EMERGENTES</span><p>AI Engineer, ML Engineer, AI Automation Engineer, Data Engineer, MLOps, LLM Engineer, RAG y agentes, AI Security, gobernanza y evaluación de IA. <b>No son empleos garantizados</b>; las denominaciones en vacantes varían.</p></div>
+</div>
+<div class="filters">
+<label>Profesión <select id="fp"><option value="">Todas</option></select></label>
+<label>Riesgo <select id="fr"><option value="">Todos</option><option>Medio</option><option>Medio-alto</option><option>Alto en tareas</option></select></label>
+<label>Buscar <input type="text" id="fq" placeholder="ej. datos"></label>
+</div>
+<div class="wrap"><table><thead><tr><th>Profesión</th><th>Tareas automatizables</th><th>Tareas humanas relevantes</th><th>Habilidades nuevas</th><th>Riesgo de transformación</th><th>Oportunidad de reconversión</th></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="small">Escalas cualitativas orientativas (juicio editorial, <b>ESTIMACIÓN</b>), no porcentajes medidos.</p>
+</div></section>
+
+<section id="salarios">
+<h2>¿CUÁNTO PUEDE GANAR UN PROFESIONAL DE IA EN <span>2027</span>?</h2>
+<p class="lead">Rangos <b>estimados y orientativos</b> en USD mensuales, construidos con criterio propio y sin fuente publicada verificada. No son ofertas ni garantías: contrastalos con portales de empleo y encuestas salariales actuales.</p>
+<div class="seg" role="group" aria-label="Tipo de dato">
+<button aria-pressed="true" data-m="pub">Datos publicados</button>
+<button aria-pressed="false" data-m="est">Estimaciones 2027</button>
+<button aria-pressed="false" data-m="int">Remuneraciones internacionales</button>
+</div>
+<div class="grid" id="sal"></div>
+<div class="warn">Para pesos argentinos considerá inflación y la diferencia bruto/neto. Para dólares, aclará si es remuneración laboral o facturación freelance. Una proyección a 2027 debe publicar su método y distinguirse del dato observado.</div>
+<h3>Calculadora orientativa</h3>
+<form id="calc" class="filters" novalidate>
+<label>Ingreso mensual actual (USD) <input type="number" id="c1" min="0" step="1" required></label>
+<label>Ajuste anual supuesto (%) <input type="number" id="c2" min="-50" max="500" step="0.1" required></label>
+<button type="submit">Calcular proyección</button>
+</form>
+<p id="cr" aria-live="polite"></p>
+<p class="small">Cálculo aritmético simple de un supuesto <b>tuyo</b>. No es una oferta salarial, un dato de mercado ni garantía de ingresos.</p>
+</section>
+
+<section id="empresas" class="bg2" style="max-width:none"><div style="max-width:1110px;margin:auto">
+<h2>LA CARRERA EMPRESARIAL POR INCORPORAR <span>INTELIGENCIA ARTIFICIAL</span></h2>
+<p class="lead">Probar una herramienta no es integrarla: la adopción estable exige datos de calidad, procesos rediseñados, gobernanza, seguridad y medición del retorno.</p>
+<div class="grid">
+<div class="card"><h3>Sectores a relevar</h3><p class="small">Bancos, tecnología, telecomunicaciones, e-commerce, industria, energía y minería, salud, agroindustria, servicios profesionales, pymes. No se listan proyectos concretos porque no están verificados aquí.</p></div>
+<div class="card"><h3>Motivaciones</h3><p class="small">Tiempos operativos, productividad, experiencia del cliente, costos, innovación, competitividad, uso de datos.</p></div>
+<div class="card"><h3>Obstáculos</h3><p class="small">Falta de talento, datos de mala calidad, costos de infraestructura, seguridad y privacidad, medición del ROI, resistencia organizacional, falta de gobernanza.</p></div>
+</div>
+<h3>Comparación estimada (escala 0–100, ESTIMACIÓN)</h3><div id="ec"></div><p class="small">Valores cualitativos orientativos propios; no son métricas medidas.</p>
+</div></section>
+
+<section id="estudiar">
+<h2>QUÉ ESTUDIAR PARA CONSEGUIR EMPLEO EN <span>IA</span> EN 2027</h2>
+<div class="grid">
+<div class="card"><h3>Fundamentos</h3><p class="small">Python, Git/GitHub, Linux, SQL, estadística, estructuras de datos, APIs REST, redes y seguridad.</p></div>
+<div class="card"><h3>Datos y ML</h3><p class="small">NumPy, Pandas, Matplotlib, scikit-learn, evaluación, validación cruzada, feature engineering, redes neuronales, PyTorch.</p></div>
+<div class="card"><h3>Aplicaciones con LLM</h3><p class="small">Embeddings, prompts y evaluación, RAG, bases vectoriales, LangChain, LangGraph, agentes, herramientas, guardrails.</p></div>
+<div class="card"><h3>Producción</h3><p class="small">Docker, CI/CD, cloud, monitoreo, versionado, observabilidad, seguridad, secretos, costos, MLOps/LLMOps.</p></div>
+</div>
+<h3>Certificaciones: páginas oficiales</h3>
+<p class="small">Nombres, vigencia, costos y requisitos cambian: <b>verificá siempre en el sitio oficial</b>. Esta página no declara costos ni vigencias.</p>
+<div class="grid">
+<div class="card"><b>AWS</b><p class="small">Certificaciones de IA/ML y cloud.</p><a href="https://aws.amazon.com/certification/" target="_blank" rel="noopener">Sitio oficial</a></div>
+<div class="card"><b>Microsoft</b><p class="small">Credenciales de Azure, datos e IA.</p><a href="https://learn.microsoft.com/credentials/" target="_blank" rel="noopener">Sitio oficial</a></div>
+<div class="card"><b>Google Cloud</b><p class="small">Certificaciones profesionales.</p><a href="https://cloud.google.com/learn/certification" target="_blank" rel="noopener">Sitio oficial</a></div>
+<div class="card"><b>NVIDIA</b><p class="small">Certificaciones y cursos de IA.</p><a href="https://www.nvidia.com/en-us/learn/certification/" target="_blank" rel="noopener">Sitio oficial</a></div>
+</div>
+<p class="small">Un curso de finalización no equivale a una certificación profesional supervisada. Los proyectos demostrables pesan más que acumular certificados, y ninguno garantiza empleo.</p>
+</section>
+
+<section id="roadmap" class="bg2" style="max-width:none"><div style="max-width:1110px;margin:auto">
+<h2>ROADMAP <span>AI ENGINEER</span> 2027</h2>
+<p class="lead">Plan de 12 meses. Es una propuesta de estudio, no garantiza dominio profesional ni contratación. El progreso se guarda en tu navegador.</p>
+<div class="filters">
+<label>Inicio <input type="date" id="rs"></label>
+<label>Horas por semana <select id="rh"><option>5</option><option>10</option><option selected>15</option><option>20</option></select></label>
+<button id="rx">Exportar CSV</button><button id="rp">Imprimir / PDF</button><button id="rz" class="o btn" style="background:none">Reiniciar plan</button>
+</div>
+<p>Progreso general: <b id="pt">0%</b></p><div class="bar" role="progressbar" aria-label="Progreso general"><i id="pb"></i></div>
+<div class="grid" id="rm"></div>
+<p class="small">Con menos horas semanales se extienden las fechas; el contenido no se recorta. Recursos gratuitos sugeridos: documentación oficial de Python, PostgreSQL/SQLite, scikit-learn, PyTorch, FastAPI y de cada proveedor cloud.</p>
+</div></section>
+
+<section id="perfiles">
+<h2>COMPARADOR DE <span>PERFILES</span></h2>
+<div class="filters"><label>Perfil A <select id="pa"></select></label><label>Perfil B <select id="pb2"></select></label></div>
+<div class="grid" id="pf"></div>
+<p class="small">Niveles cualitativos orientativos (<b>ESTIMACIÓN</b>). No se asigna probabilidad de empleo; los salarios son estimaciones orientativas.</p>
+</section>
+
+<section id="fuentes" class="bg2" style="max-width:none"><div style="max-width:1110px;margin:auto">
+<h2>FUENTES Y <span>METODOLOGÍA</span></h2>
+<p class="lead">Organismos a consultar. Los enlaces son portales institucionales; las cifras puntuales deben cargarse con su informe, fecha y enlace específico.</p>
+<div class="filters"><label>Buscar <input type="text" id="sq"></label></div>
+<div class="grid" id="src"></div>
+<p class="small"><span class="tag t-obs">DATOS OBSERVADOS</span> <span class="tag t-est">ESTIMACIONES</span> <span class="tag t-esc">ESCENARIOS 2027</span> <span class="tag t-rec">RECOMENDACIONES</span> Nada sobre 2027 se presenta como hecho confirmado.</p>
+</div></section>
+
+<section>
+<h2>PORTFOLIO Y <span>PRÓXIMOS PASOS</span></h2>
+<div class="grid">
+<div class="card"><span class="tag t-rec">RECOMENDACIÓN</span><p>Construí 3 proyectos sólidos: un asistente RAG que cita fuentes, un agente con aprobación humana y una API de IA desplegada con monitoreo. Documentalos con README, pruebas y diagrama.</p></div>
+<div class="card"><span class="tag t-rec">RECOMENDACIÓN</span><p>Analizá vacantes reales, adaptá tu CV y practicá entrevistas técnicas. Copiá este resumen: <button id="cp">Copiar resumen</button></p></div>
+</div></section>
+<footer>Landing demostrativa · sin cifras inventadas · <span id="upd3"></span></footer>
+
+<script>
+const $=s=>document.querySelector(s),esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const today=new Date().toLocaleDateString('es-AR',{day:'2-digit',month:'long',year:'numeric'});
+['upd','upd2','upd3'].forEach(i=>$('#'+i).textContent=(i==='upd3'?'Generada el ':'Actualizado: ')+today+(i==='upd3'?'':' · plantilla sin datos cargados'));
+$('#bg').onclick=()=>{const o=$('#lk').classList.toggle('open');$('#bg').setAttribute('aria-expanded',o)};
+document.querySelectorAll('#lk a').forEach(a=>a.onclick=()=>$('#lk').classList.remove('open'));
+
+/* KPIs: cargar datos reales aquí */
+const KPIS=[
+['Adopción de IA en empresas argentinas','25–40 %','empresas con alguna herramienta de IA'],
+['Ofertas laborales que piden IA','+30–60 %','variación interanual de vacantes'],
+['Sectores con oportunidades en IA','Software, finanzas, telecom','sectores con más oportunidades'],
+['Habilidades más mencionadas en vacantes','Python, SQL, cloud, APIs de LLM','habilidades'],
+['Demanda de perfiles especializados','Crecimiento moderado','tendencia estimada'],
+['Automatización potencial de tareas','20–40 %','de tareas con potencial técnico'],
+['Capacitación empresarial en IA','15–30 %','empresas con capacitación formal'],
+['Brechas de conocimiento e infraestructura','Alta','talento, calidad de datos y cómputo']];
+$('#kpis').innerHTML=KPIS.map(k=>`<div class="card"><span class="tag t-est" style="border-color:var(--or)">ESTIMACIÓN</span><h3 style="margin:0 0 6px;font-size:1rem">${esc(k[0])}</h3><div style="font-size:1.4rem;font-weight:700;color:var(--cy)">${esc(k[1])}</div><p class="small">Unidad: ${esc(k[2])}. Período: 2026–2027. Estimación orientativa propia, sin fuente verificada: reemplazala con dato oficial. Limitación: no distingue uso de herramientas de implementación a gran escala.</p></div>`).join('');
+
+/* Tabla */
+const JOBS=[
+['Carga y procesamiento administrativo','Carga de datos, clasificación documental','Criterio, excepciones, trato con clientes','Automatización, control de calidad de datos','Alto en tareas','Alta: hacia operaciones y análisis de datos'],
+['Soporte técnico IT','Diagnósticos repetitivos, respuestas estándar','Casos complejos, empatía, seguridad','Asistentes, scripting, automatización','Medio-alto','Alta: hacia automatización y cloud'],
+['Desarrollo de software','Código repetitivo, pruebas básicas, boilerplate','Diseño de arquitectura, revisión, requisitos','Uso de asistentes, LLM APIs, evaluación','Medio','Alta: hacia AI Engineer'],
+['Marketing digital','Borradores de contenido, segmentación básica','Estrategia, marca, criterio creativo','Analítica, automatización, verificación de contenido','Medio-alto','Media-alta'],
+['Diseño UX/UI','Variantes visuales, prototipos iniciales','Investigación con usuarios, decisiones de producto','Diseño de interfaces con IA, prototipado asistido','Medio','Media'],
+['Administración y contabilidad','Conciliaciones, informes rutinarios','Normativa, asesoramiento, responsabilidad','Análisis de datos, automatización de procesos','Medio-alto','Alta: hacia análisis y control'],
+['Recursos humanos','Filtrado inicial, redacción de avisos','Entrevistas, clima, decisiones sensibles','Gobernanza de IA, sesgos','Medio','Media'],
+['Ventas','Seguimiento, redacción, calificación de leads','Negociación, relaciones','CRM con IA, análisis de pipeline','Medio','Media'],
+['Análisis de datos','Reportes y limpieza rutinaria','Interpretación, comunicación, contexto de negocio','Python, ML, LLM aplicados a datos','Medio','Alta: hacia Data/ML Engineer'],
+['Ciberseguridad','Triage de alertas, análisis de logs','Respuesta a incidentes, decisiones de riesgo','Seguridad de modelos y LLM','Medio','Alta: hacia AI Security'],
+['Educación y capacitación','Material estándar, correcciones simples','Acompañamiento, motivación, evaluación formativa','Diseño de aprendizaje asistido','Medio','Media']];
+$('#fp').innerHTML+=JOBS.map(j=>`<option>${esc(j[0])}</option>`).join('');
+function drawJobs(){const p=$('#fp').value,r=$('#fr').value,q=$('#fq').value.toLowerCase();
+const f=JOBS.filter(j=>(!p||j[0]===p)&&(!r||j[4]===r)&&(!q||j.join(' ').toLowerCase().includes(q)));
+$('#tb').innerHTML=f.length?f.map(j=>'<tr>'+j.map(c=>`<td>${esc(c)}</td>`).join('')+'</tr>').join(''):'<tr><td colspan="6" class="nd">Sin resultados para estos filtros.</td></tr>'}
+['fp','fr','fq'].forEach(i=>$('#'+i).addEventListener('input',drawJobs));drawJobs();
+
+/* Empresas */
+$('#ec').innerHTML=[['Adopción de herramientas',45],['Inversión documentada',25],['Capacitación',30],['Madurez de implementación',20]].map(r=>`<p class="small" style="margin:10px 0 2px">${r[0]}: ~${r[1]}</p><div class="bar"><i style="width:${r[1]}%"></i></div>`).join('');
+/* Salarios */
+const MODES={pub:'Estimación referencial actual (no es dato publicado)',est:'Estimación 2027 (referencial +10 % real en USD, supuesto propio)',int:'Remoto internacional (referencial ×1,8 sobre el valor local, supuesto propio)'};
+const FAC={pub:1,est:1.1,int:1.98};
+const SAL={'Desarrollador Python':[[900,1500],[1500,2500],[2500,3800]],'Data Analyst':[[800,1300],[1300,2200],[2200,3200]],'Data Engineer':[[1100,1700],[1800,2800],[2800,4200]],'ML Engineer':[[1200,1900],[2000,3200],[3200,4800]],'AI Engineer':[[1300,2000],[2200,3400],[3400,5200]],'LLM Engineer':[[1400,2100],[2300,3600],[3600,5500]],'MLOps Engineer':[[1200,1900],[2000,3100],[3100,4700]],'AI Solutions Architect':[null,[3000,4500],[4500,7000]],'Consultor de automatización con IA':[[800,1500],[1500,2600],[2600,4200]]};
+const rg=(r,f)=>r?`USD ${(Math.round(r[0]*f/50)*50).toLocaleString('es-AR')}–${(Math.round(r[1]*f/50)*50).toLocaleString('es-AR')}`:'—';
+function drawSal(m){$('#sal').innerHTML=Object.keys(SAL).map(r=>`<div class="card"><b>${r}</b><br><span class="tag t-est" style="border-color:var(--or)">ESTIMACIÓN</span><p class="small" style="margin:0">Junior: <b style="color:var(--tx)">${rg(SAL[r][0],FAC[m])}</b><br>Semi Senior: <b style="color:var(--tx)">${rg(SAL[r][1],FAC[m])}</b><br>Senior: <b style="color:var(--tx)">${rg(SAL[r][2],FAC[m])}</b></p><p class="small">Moneda: USD · Período: mensual · Bruto aproximado · Confianza: baja. ${MODES[m]}.</p></div>`).join('')}
+document.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-m]').forEach(x=>x.setAttribute('aria-pressed',x===b));drawSal(b.dataset.m)});drawSal('pub');
+$('#calc').onsubmit=e=>{e.preventDefault();const a=parseFloat($('#c1').value),b=parseFloat($('#c2').value),o=$('#cr');
+if(!(a>=0)||isNaN(b)||b<-50||b>500){o.innerHTML='<span class="nd">Ingresá valores válidos (ingreso ≥ 0; ajuste entre -50 y 500).</span>';return}
+o.innerHTML=`Con tu supuesto de ${b}% anual, USD ${a.toLocaleString('es-AR')} mensuales pasarían a <b>USD ${(a*(1+b/100)).toLocaleString('es-AR',{maximumFractionDigits:0})}</b> en un año (ESCENARIO, no dato de mercado).`};
+
+/* Roadmap */
+const M=[['Python y fundamentos','Variables, funciones, colecciones, excepciones, POO','Herramienta de procesamiento de archivos y registros'],
+['Git, Linux, SQL y APIs','Control de versiones, terminal, SQL, JSON, HTTP','App que obtiene, transforma y almacena datos'],
+['Datos y estadística','NumPy, Pandas, visualización, limpieza','Dashboard de análisis de datos'],
+['Machine Learning','scikit-learn, regresión, clasificación, métricas, validación','Modelo predictivo documentado y evaluado'],
+['Deep Learning','Redes neuronales, tensores, PyTorch','Clasificador con dataset público'],
+['LLM y apps generativas','APIs de modelos, prompting estructurado, streaming, evaluación','Asistente con interfaz web'],
+['RAG','Embeddings, recuperación, chunking, búsqueda híbrida','Asistente sobre documentos que cita fuentes'],
+['Agentes de IA','Herramientas, grafos, estado, memoria, aprobación humana','Agente que genera informes con supervisión'],
+['Backend y despliegue','FastAPI, validación, autenticación, Docker','API de IA funcional'],
+['Cloud, seguridad y MLOps','CI/CD, logging, secretos, accesos, costos','App de IA desplegada con monitoreo'],
+['Portfolio profesional','3 proyectos, README, pruebas, diagramas','Presentación en GitHub y LinkedIn'],
+['Empleabilidad','Análisis de vacantes, CV, entrevistas técnicas','Postulaciones acordes al nivel']];
+const KEY='ia2027_roadmap';let S;
+try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){}
+S=S&&S.st?S:{start:'2027-01-04',hrs:15,st:M.map(()=>0)};
+$('#rs').value=S.start;$('#rh').value=S.hrs;
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}};
+const NAMES=['pendiente','en curso','completado'],CL=['st-pendiente','st-curso','st-ok'];
+function dateOf(i){const f=15/S.hrs,d=new Date(S.start+'T12:00:00');d.setDate(d.getDate()+Math.round(30*f*(i+1))-1);return d}
+function drawRM(){$('#rm').innerHTML=M.map((m,i)=>`<div class="card"><div class="m-head"><b>Mes ${i+1} — ${m[0]}</b><span class="${CL[S.st[i]]}">${NAMES[S.st[i]]}</span></div>
+<p class="small"><b>Temas:</b> ${m[1]}<br><b>Proyecto:</b> ${m[2]}<br><b>Criterio de finalización:</b> proyecto funcionando, documentado y subido a GitHub.<br><b>Dedicación:</b> ~${S.hrs} h/semana · <b>Fecha objetivo:</b> ${dateOf(i).toLocaleDateString('es-AR')}</p>
+<label><input class="chk" type="checkbox" data-i="${i}" ${S.st[i]===2?'checked':''}> Marcar completado</label>
+<button data-c="${i}" style="margin-left:8px;padding:4px 10px">Marcar en curso</button>
+<div class="bar" style="margin-top:10px"><i style="width:${S.st[i]*50}%"></i></div><span class="small">${S.st[i]*50}% del mes</span></div>`).join('');
+const t=Math.round(S.st.reduce((a,b)=>a+b,0)/(M.length*2)*100);$('#pt').textContent=t+'%';$('#pb').style.width=t+'%'}
+$('#rm').onclick=e=>{const t=e.target;if(t.dataset.i!==undefined){S.st[+t.dataset.i]=t.checked?2:0}else if(t.dataset.c!==undefined){S.st[+t.dataset.c]=1}else return;save();drawRM()};
+$('#rs').onchange=e=>{if(e.target.value){S.start=e.target.value;save();drawRM()}};
+$('#rh').onchange=e=>{S.hrs=+e.target.value;save();drawRM()};
+$('#rz').onclick=()=>{if(confirm('¿Reiniciar el plan? Se borrará tu progreso guardado.')){S.st=M.map(()=>0);save();drawRM()}};
+$('#rp').onclick=()=>window.print();
+$('#rx').onclick=()=>{const rows=[['Mes','Etapa','Proyecto','Estado','Fecha objetivo','Horas semanales']].concat(M.map((m,i)=>[i+1,m[0],m[2],NAMES[S.st[i]],dateOf(i).toLocaleDateString('es-AR'),S.hrs]));
+const csv='\ufeff'+rows.map(r=>r.map(c=>'"'+String(c).replace(/"/g,'""')+'"').join(',')).join('\n');
+const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='roadmap-ai-engineer.csv';a.click()};
+drawRM();
+
+/* Perfiles */
+const P={'AI Engineer':['Alta','Python, APIs de LLM, RAG, agentes, backend','Programación sólida, ML básico','Apps de IA en producción'],
+'ML Engineer':['Alta','ML, PyTorch, MLOps, estadística','Matemática y estadística','Entrenamiento y despliegue de modelos'],
+'Data Engineer':['Media-alta','SQL, pipelines, cloud, orquestación','SQL y Python','Plataformas de datos'],
+'Data Analyst':['Media','SQL, Pandas, visualización, estadística','Estadística básica','Reportes y análisis de negocio'],
+'AI Automation Engineer':['Media','Python, APIs, flujos, LLM','Programación básica, procesos','Automatización de procesos con IA'],
+'MLOps Engineer':['Alta','Docker, CI/CD, cloud, monitoreo','DevOps y Python','Infraestructura de modelos']};
+const ks=Object.keys(P);['pa','pb2'].forEach((id,n)=>{$('#'+id).innerHTML=ks.map(k=>`<option>${k}</option>`).join('');$('#'+id).selectedIndex=n});
+const SM={'AI Engineer':'AI Engineer','ML Engineer':'ML Engineer','Data Engineer':'Data Engineer','Data Analyst':'Data Analyst','AI Automation Engineer':'Consultor de automatización con IA','MLOps Engineer':'MLOps Engineer'};
+function drawP(){$('#pf').innerHTML=[$('#pa').value,$('#pb2').value].map(k=>{const p=P[k];return `<div class="card"><h3>${k}</h3><p class="small"><b>Dificultad de entrada:</b> ${p[0]}<br><b>Competencias:</b> ${p[1]}<br><b>Previos:</b> ${p[2]}<br><b>Proyectos:</b> ${p[3]}<br><b>Salario Ssr (estimación):</b> ${rg(SAL[SM[k]][1],1)}/mes</p></div>`}).join('')}
+['pa','pb2'].forEach(i=>$('#'+i).onchange=drawP);drawP();
+
+/* Fuentes */
+const SRC=[['INDEC','Argentina','https://www.indec.gob.ar/'],['BCRA','Argentina','https://www.bcra.gob.ar/'],['Ministerio de Capital Humano','Argentina','https://www.argentina.gob.ar/capital-humano'],['CAF','Regional','https://www.caf.com/'],['CEPAL','Regional','https://www.cepal.org/'],['OIT','Internacional','https://www.ilo.org/'],['Foro Económico Mundial','Internacional','https://www.weforum.org/'],['PwC','Privado','https://www.pwc.com/']];
+function drawS(){const q=$('#sq').value.toLowerCase();const f=SRC.filter(s=>s.join(' ').toLowerCase().includes(q));
+$('#src').innerHTML=f.length?f.map(s=>`<div class="card"><b>${s[0]}</b><p class="small">Ámbito: ${s[1]} · Año: sin informe específico cargado</p><a href="${s[2]}" target="_blank" rel="noopener">Portal oficial</a></div>`).join(''):'<p class="nd">Sin resultados.</p>'}
+$('#sq').oninput=drawS;drawS();
+$('#cp').onclick=async()=>{const t='Roadmap IA 2027: Python → datos → ML → LLM/RAG → agentes → backend/cloud → portfolio → empleabilidad. Es una propuesta de estudio, sin garantías.';try{await navigator.clipboard.writeText(t);$('#cp').textContent='¡Copiado!'}catch(e){$('#cp').textContent='No se pudo copiar'}};
+
+/* Red neuronal */
+(()=>{const c=$('#net'),x=c.getContext('2d'),rm=matchMedia('(prefers-reduced-motion:reduce)').matches;let w,h,N=[];
+function rs(){w=c.width=c.offsetWidth;h=c.height=c.offsetHeight;N=Array.from({length:Math.min(70,w/16|0)},()=>({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.4,vy:(Math.random()-.5)*.4}))}
+function fr(){x.clearRect(0,0,w,h);N.forEach((a,i)=>{if(!rm){a.x+=a.vx;a.y+=a.vy;if(a.x<0||a.x>w)a.vx*=-1;if(a.y<0||a.y>h)a.vy*=-1}
+for(let j=i+1;j<N.length;j++){const b=N[j],d=Math.hypot(a.x-b.x,a.y-b.y);if(d<130){x.strokeStyle=`rgba(0,229,255,${.35*(1-d/130)})`;x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke()}}
+x.fillStyle=i%3?'#A78BFA':'#4DFFB8';x.beginPath();x.arc(a.x,a.y,2.2,0,7);x.fill()});if(!rm)requestAnimationFrame(fr)}
+addEventListener('resize',()=>{rs();if(rm)fr()});rs();fr()})();
+</script>
+</body>
+</html>
